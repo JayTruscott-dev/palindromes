@@ -1,6 +1,7 @@
 <?php
 
 
+function validateInput($input){
   if(ctype_digit($input)){
     processor($input);
   }
